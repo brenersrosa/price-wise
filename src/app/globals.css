@@ -58,3 +58,11 @@
     @apply bg-background text-foreground;
   }
 }
+
+.carousel .control-dots .dot {
+  @apply w-[10px] h-[10px] bg-foreground rounded-full bottom-0 shadow-none opacity-5 !important;
+}
+.carousel .control-dots .dot.selected {
+  @apply bg-foreground opacity-100 !important;
+}
+
